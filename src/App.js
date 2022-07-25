@@ -1,10 +1,14 @@
 import './App.css';
+import React, { Fragment } from 'react';
+import TopBar from './TopBar';
+import StoreListing from './StoreListing';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello World</h1>
-    </div>
+    <Fragment>
+    <TopBar></TopBar>
+    <StoreListing></StoreListing>
+    </Fragment>
   );
 }
 
